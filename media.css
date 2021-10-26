@@ -1,0 +1,170 @@
+@media(max-width:1200px) {
+	figure img {
+		max-width: 100%;
+	}
+
+	.container {
+		max-width: 90%;
+	}
+
+	.weather-chart {
+		margin: 0px;
+	}
+
+	.weather-chart figcaption {
+		max-width: 100%;
+	}
+
+	.gallery-item {
+		display: flex;
+		flex-direction: column;
+	}
+
+	.gallery-item:nth-child(2n) {
+		display: flex;
+		flex-direction: column;
+	}
+
+
+	.gallery-list {
+		max-width: 100%;
+	}
+
+	.gallery-item h3 {
+		min-height: 200px;
+	}
+
+	.transfer {
+		margin: 0px;
+		max-width: 100%;
+		margin-bottom: 10px;
+	}
+}
+
+@media(max-width:425px) {
+	.slogan h1 {
+		font-size: 47px;
+	}
+
+	.about h2 {
+		margin-bottom: 5px;
+	}
+
+	h3 {
+		font-size: 27px;
+		line-height: 35px;
+	}
+
+	.container {
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+	}
+
+	.main-menu-list {
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+	}
+	
+	.main-menu-list a{
+		border-bottom: 2px solid #efefef;
+	}
+
+	.logo {
+		display: flex;
+		flex-direction: column;
+	}
+
+	.slogan {
+		max-width: 100%;
+	}
+
+	figure img {
+		max-width: 100%;
+	}
+
+
+	.ad a {
+		padding: 0px;
+	}
+
+	.ad p {
+		font-size: 20px;
+	}
+
+	.ad {
+		width: 100%;
+		padding: 10px;
+		line-height: 20px;
+	}
+
+	.wrapper {
+		flex-direction: column;
+	}
+
+	.gallery-list h3 {
+		font-size: 20px;
+		line-height: 25px;
+		min-height: 110px;
+	}
+
+	.map {
+		max-width: 100%;
+	}
+
+	.transfer thead {
+		display: none;
+	}
+
+	.transfer {
+		margin: 0px;
+		max-width: 100%;
+		border: 0;
+	}
+
+	.transfer tr {
+		display: flex;
+		flex-flow: row wrap;
+		margin-bottom: 20px;
+	}
+	
+	.transfer td {
+		width: 50%;
+		box-sizing: border-box;
+		padding-top: 35px;
+		position: relative;
+	}
+
+	.transfer td::before {
+		position: absolute;
+		top: 0;
+		right: 0;
+		width: 100%;
+		background-color: rgba(0, 38, 163, 0.336);
+		text-transform: uppercase;
+		font-size: 10px;
+		color: dimgrey;
+		padding: 5px 0px;
+	}
+
+	.transfer td:nth-child(1)::before {
+		content: "Вид транспорта";
+	}
+
+	.transfer td:nth-child(2)::before {
+		content: "Из Москвы";
+	}
+
+	.transfer td:nth-child(3)::before {
+		content: "Из Вены";
+	}
+
+	.transfer td:nth-child(4)::before {
+		content: "Из Мюнхена";
+	}
+
+	.transfer tr:nth-child(2n) {
+		background-color: transparent;
+	}
+}
